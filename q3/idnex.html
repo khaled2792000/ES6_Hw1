@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="index.js"></script>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    form {
+        margin: 10px;
+    }
+
+    .row {
+        padding: 3px;
+    }
+
+    input {
+        display: block;
+    }
+
+    #clock_table {
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <form action="" name="createClock" onsubmit="return submitForm()">
+        <label for="hour" class="row">
+            <p>Enter hour</p>
+            <input type="number" name="hour">
+        </label>
+        <label for="minutes" class="row">
+            <p>Enter minutes</p>
+            <input type="number" name="minutes">
+        </label>
+        <label for="seconds" class="row">
+            <p>Enter seconds</p>
+            <input type="number" name="seconds">
+        </label>
+        <label for="city" class="row">
+            <p>Enter city</p>
+            <input type="text" name="city">
+        </label>
+        <input type="submit" value="Submit">
+    </form>
+    <table id="clock_table">
+
+    </table>
+</body>
+
+</html>

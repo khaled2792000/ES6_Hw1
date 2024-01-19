@@ -1,0 +1,106 @@
+form {
+    width: 100%;
+    display: inline-grid;
+    column-gap: 50px;
+    grid-template:
+        'header header header'
+        'name colora pic'
+        'age weighta pic'
+        'picURL btn btn'
+    ;
+}
+
+#picture {
+    grid-area: picURL;
+}
+
+button[type='submit'] {
+    grid-area: btn;
+}
+
+#name {
+    grid-area: name;
+}
+
+#color {
+    grid-area: colora;
+}
+
+#age {
+    grid-area: age;
+}
+
+#weight {
+    grid-area: weighta;
+}
+
+#drop_zone {
+    grid-area: pic;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#drop_zone {
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    height: fit-content;
+}
+
+#drop_zone img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-size: 200px;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+    /* Firefox */
+}
+
+#drop_zone {
+    text-align: center;
+    border: solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 2px;
+}

@@ -1,0 +1,48 @@
+  body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M445.650935321098 310.44645008078004L359.96354777139527 424.15745400679424 559.3619392471122 396.1338376304828z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M190.062%2c510.393C233.948%2c508.801%2c267.378%2c476.16%2c289.612%2c438.29C312.203%2c399.812%2c325.485%2c354.085%2c305.152%2c314.367C283.176%2c271.439%2c238.181%2c240.611%2c190.062%2c243.826C145.781%2c246.785%2c120.487%2c289.406%2c98.849%2c328.153C77.976%2c365.53%2c57.998%2c407.716%2c77.159%2c445.999C97.943%2c487.524%2c143.657%2c512.077%2c190.062%2c510.393' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M288.61633656460873 303.772310483164L230.04382119664547 376.10334316216745 367.8266278991323 427.79659987461065z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M123.268%2c215.267C142.713%2c215.241%2c158.687%2c200.99%2c167.619%2c183.718C175.822%2c167.856%2c173.998%2c149.438%2c165.408%2c133.782C156.428%2c117.414%2c141.938%2c102.979%2c123.268%2c102.879C104.464%2c102.778%2c89.402%2c116.851%2c80.335%2c133.325C71.629%2c149.143%2c70.33%2c167.843%2c78.71%2c183.837C87.751%2c201.093%2c103.787%2c215.293%2c123.268%2c215.267' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1388.255%2c350.137C1409.883%2c349.985%2c1426.814%2c332.855%2c1436.44%2c313.486C1445.004%2c296.255%2c1442.401%2c276.618%2c1433.188%2c259.725C1423.488%2c241.94%2c1408.455%2c226.664%2c1388.255%2c225.135C1365.342%2c223.401%2c1340.913%2c231.803%2c1329.769%2c251.899C1318.865%2c271.563%2c1327.381%2c294.852%2c1338.884%2c314.172C1350.048%2c332.923%2c1366.433%2c350.29%2c1388.255%2c350.137' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M718.40121299681 407.7731184181157L626.3771066985211 502.88530455155086 738.1240110403253 532.8277973266153z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  }
+
+  .card {
+      width: 500px;
+      text-align: center;
+      background-color: rgba(135, 206, 250, 0.512);
+      border-radius: 25px;
+      padding: 10px 20px;
+      box-shadow: 2px 2px 20px black;
+
+  }
+
+  button {
+      background-color: rgba(135, 206, 250, 0.512);
+      border: none;
+      border-radius: 2px;
+      padding: 10px;
+      cursor: pointer;
+  }
+
+  button:hover {
+      color: rgba(135, 206, 250, 0.512);
+      background-color: black;
+
+  }
+
+  h1 {
+      color: rgba(135, 206, 250, 0.512);
+      text-shadow: 1px 2px 5px black;
+  }
+
+  #counterInput {
+      width: 50px;
+      height: 50px;
+      font-size: larger;
+      text-align: center;
+      background-color: transparent;
+      border: solid black 1px;
+      border-radius: 5px;
+  }

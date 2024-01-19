@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>function 1</h2>
+        <code lang="js" id="code1">
+        </code>
+        <p>Example for false: [(1,2),(2,1),(1,1)], x=3 ,y =3</p>
+        <p id="fun1_f"></p>
+        <p>Example for true: [(1,2),(3,1),(1,1)], x=1 ,y =1</p>
+        <p id="fun1_t"></p>
+    </div>
+    <div>
+        <h2>function 2</h2>
+        <code lang="js" id="code2">
+        </code>
+        <p>Example for false: [(1,2),(2,1),(1,1)], point(3,3)</p>
+        <p id="fun2_f"></p>
+        <p>Example for true: [(1,2),(3,1),(1,1)], point(1,1)</p>
+        <p id="fun2_t"></p>
+    </div>
+    <div>
+        <h2>function 3</h2>
+        <code lang="js" id="code3">
+        </code>
+        <h2>function 3.1</h2>
+        <code lang="js" id="code4">
+        </code>
+        <p>Example: array of the points (x,y) that x = 0 and y= x+1 and x goes up to 5</p>
+    </div>
+    <div>
+        <canvas id="myChart"></canvas>
+        <p id="d_value"></p>
+    </div>
+</body>
+
+</html>
